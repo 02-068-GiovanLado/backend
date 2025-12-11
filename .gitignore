@@ -1,0 +1,56 @@
+# Ignore real_estate_api folder
+real_estate_api/
+
+# Python files
+*.egg
+*.egg-info
+*.pyc
+*$py.class
+*~
+__pycache__/
+
+# Coverage
+.coverage
+coverage.xml
+coverage
+
+# Build
+build/
+dist/
+.tox/
+
+# Testing
+nosetests.xml
+test
+.pytest_cache/
+
+# Environment
+env*/
+tmp/
+
+# Data
+Data*.fs*
+*.sqlite
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+.*.sw?
+.sw?
+.vscode/
+.idea/
+.DS_Store
+
+# Config files
+*.ini
+development.ini
+production.ini
+testing.ini
+
+# Other
+*.log
+setup.py
+pytest.ini
+CHANGES.txt
+MANIFEST.in
+tests/
